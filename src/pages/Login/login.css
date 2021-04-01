@@ -1,0 +1,21 @@
+#Principal{
+    
+    position: relative;
+}
+#Principal::before{
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: aqua;
+}
+.Login{
+    margin: 60px auto;
+    width: 600px;
+    height: 400px;
+    padding: 4%;
+    border: 1px solid red;
+    color: black
+}
